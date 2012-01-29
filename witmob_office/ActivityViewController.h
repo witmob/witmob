@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ActivityViewController : UIViewController
+<UITableViewDelegate,UITableViewDataSource>
+{
+    NSArray *rootArray;
+    IBOutlet UITableView *rootTableView;
+}
 
 @end

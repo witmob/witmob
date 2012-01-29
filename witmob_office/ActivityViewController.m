@@ -7,7 +7,8 @@
 //
 
 #import "ActivityViewController.h"
-
+#import "ActivityTableCellView.h"
+#import "ActivityContentViewController.h"
 @implementation ActivityViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -48,4 +49,27 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+#pragma tableView
+-(UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+	static NSString *tableIdentifier = @"ActivityTableCell";
+	ActivityTableCellView *cell = (ActivityTableCellView *)[tableView dequeueReusableCellWithIdentifier:tableIdentifier];
+	if (cell == nil) {
+        NSArray *array = [[NSBundle mainBundle] loadNibNamed:@"ActivityTableCellView" owner:self options:nil];
+        cell = [array objectAtIndex:0];
+	}
+	
+    return cell;
+	
+}
+//定义有多少行
+-(NSInteger) tableView:(UITableView *)table numberOfRowsInSection:(NSInteger)section 
+{
+	return 3;
+}
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    ActivityContentViewController *activityContentViewController=[[ActivityContentViewController alloc] initWithNibName:@"ActivityContentViewController" bundle:nil];
+    [self.navigationController pushViewController:activityContentViewController animated:YES];
+}
 @end

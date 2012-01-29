@@ -33,6 +33,10 @@
 		2CBE7A4414D4F48700271514 /* CollaboratorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBE7A3514D4F48700271514 /* CollaboratorsViewController.m */; };
 		2CBE7A4614D4F48700271514 /* witmob.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CBE7A3714D4F48700271514 /* witmob.storyboard */; };
 		2CBE7A4814D4F5ED00271514 /* home_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CBE7A4714D4F5ED00271514 /* home_gray.png */; };
+		2CBE7A5314D5248C00271514 /* ActivityTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBE7A5214D5248C00271514 /* ActivityTableCellView.m */; };
+		2CBE7A5514D524A100271514 /* ActivityTableCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CBE7A5414D524A000271514 /* ActivityTableCellView.xib */; };
+		2CBE7A5D14D5265400271514 /* ActivityContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBE7A5B14D5265300271514 /* ActivityContentViewController.m */; };
+		2CBE7A5E14D5265400271514 /* ActivityContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CBE7A5C14D5265300271514 /* ActivityContentViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +77,12 @@
 		2CBE7A3514D4F48700271514 /* CollaboratorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollaboratorsViewController.m; sourceTree = "<group>"; };
 		2CBE7A3714D4F48700271514 /* witmob.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = witmob.storyboard; sourceTree = "<group>"; };
 		2CBE7A4714D4F5ED00271514 /* home_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_gray.png; sourceTree = "<group>"; };
+		2CBE7A5114D5248B00271514 /* ActivityTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityTableCellView.h; sourceTree = "<group>"; };
+		2CBE7A5214D5248C00271514 /* ActivityTableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityTableCellView.m; sourceTree = "<group>"; };
+		2CBE7A5414D524A000271514 /* ActivityTableCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityTableCellView.xib; sourceTree = "<group>"; };
+		2CBE7A5A14D5265200271514 /* ActivityContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityContentViewController.h; sourceTree = "<group>"; };
+		2CBE7A5B14D5265300271514 /* ActivityContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityContentViewController.m; sourceTree = "<group>"; };
+		2CBE7A5C14D5265300271514 /* ActivityContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityContentViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +150,12 @@
 				2CBE7A0514D4EF8F00271514 /* OfficeAppDelegate.h */,
 				2CBE7A0614D4EF8F00271514 /* OfficeAppDelegate.m */,
 				2CBE79FD14D4EF8F00271514 /* Supporting Files */,
+				2CBE7A5114D5248B00271514 /* ActivityTableCellView.h */,
+				2CBE7A5214D5248C00271514 /* ActivityTableCellView.m */,
+				2CBE7A5414D524A000271514 /* ActivityTableCellView.xib */,
+				2CBE7A5A14D5265200271514 /* ActivityContentViewController.h */,
+				2CBE7A5B14D5265300271514 /* ActivityContentViewController.m */,
+				2CBE7A5C14D5265300271514 /* ActivityContentViewController.xib */,
 			);
 			path = witmob_office;
 			sourceTree = "<group>";
@@ -237,6 +253,8 @@
 				2CBE7A3B14D4F48700271514 /* RootNavigationViewController.xib in Resources */,
 				2CBE7A4614D4F48700271514 /* witmob.storyboard in Resources */,
 				2CBE7A4814D4F5ED00271514 /* home_gray.png in Resources */,
+				2CBE7A5514D524A100271514 /* ActivityTableCellView.xib in Resources */,
+				2CBE7A5E14D5265400271514 /* ActivityContentViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +274,8 @@
 				2CBE7A4014D4F48700271514 /* FavortiesViewController.m in Sources */,
 				2CBE7A4214D4F48700271514 /* SearchViewController.m in Sources */,
 				2CBE7A4414D4F48700271514 /* CollaboratorsViewController.m in Sources */,
+				2CBE7A5314D5248C00271514 /* ActivityTableCellView.m in Sources */,
+				2CBE7A5D14D5265400271514 /* ActivityContentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
