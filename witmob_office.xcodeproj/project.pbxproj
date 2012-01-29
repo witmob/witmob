@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CBE79F714D4EF8F00271514 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CBE79F614D4EF8F00271514 /* UIKit.framework */; };
+		2CBE79F914D4EF8F00271514 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CBE79F814D4EF8F00271514 /* Foundation.framework */; };
+		2CBE79FB14D4EF8F00271514 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CBE79FA14D4EF8F00271514 /* CoreGraphics.framework */; };
+		2CBE7A0114D4EF8F00271514 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CBE79FF14D4EF8F00271514 /* InfoPlist.strings */; };
+		2CBE7A0314D4EF8F00271514 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBE7A0214D4EF8F00271514 /* main.m */; };
+		2CBE7A0714D4EF8F00271514 /* OfficeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBE7A0614D4EF8F00271514 /* OfficeAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CBE79F214D4EF8F00271514 /* witmob_office.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = witmob_office.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CBE79F614D4EF8F00271514 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2CBE79F814D4EF8F00271514 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2CBE79FA14D4EF8F00271514 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2CBE79FE14D4EF8F00271514 /* witmob_office-Info.plist */ = {isa = PBXFileReference; path = "witmob_office-Info.plist"; sourceTree = "<group>"; };
+		2CBE7A0014D4EF8F00271514 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2CBE7A0214D4EF8F00271514 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CBE7A0414D4EF8F00271514 /* witmob_office-Prefix.pch */ = {isa = PBXFileReference; path = "witmob_office-Prefix.pch"; sourceTree = "<group>"; };
+		2CBE7A0514D4EF8F00271514 /* OfficeAppDelegate.h */ = {isa = PBXFileReference; path = OfficeAppDelegate.h; sourceTree = "<group>"; };
+		2CBE7A0614D4EF8F00271514 /* OfficeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OfficeAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CBE79EF14D4EF8F00271514 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CBE79F714D4EF8F00271514 /* UIKit.framework in Frameworks */,
+				2CBE79F914D4EF8F00271514 /* Foundation.framework in Frameworks */,
+				2CBE79FB14D4EF8F00271514 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CBE79E714D4EF8F00271514 = {
+			isa = PBXGroup;
+			children = (
+				2CBE79FC14D4EF8F00271514 /* witmob_office */,
+				2CBE79F514D4EF8F00271514 /* Frameworks */,
+				2CBE79F314D4EF8F00271514 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CBE79F314D4EF8F00271514 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CBE79F214D4EF8F00271514 /* witmob_office.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CBE79F514D4EF8F00271514 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CBE79F614D4EF8F00271514 /* UIKit.framework */,
+				2CBE79F814D4EF8F00271514 /* Foundation.framework */,
+				2CBE79FA14D4EF8F00271514 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CBE79FC14D4EF8F00271514 /* witmob_office */ = {
+			isa = PBXGroup;
+			children = (
+				2CBE7A0514D4EF8F00271514 /* OfficeAppDelegate.h */,
+				2CBE7A0614D4EF8F00271514 /* OfficeAppDelegate.m */,
+				2CBE79FD14D4EF8F00271514 /* Supporting Files */,
+			);
+			path = witmob_office;
+			sourceTree = "<group>";
+		};
+		2CBE79FD14D4EF8F00271514 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CBE79FE14D4EF8F00271514 /* witmob_office-Info.plist */,
+				2CBE79FF14D4EF8F00271514 /* InfoPlist.strings */,
+				2CBE7A0214D4EF8F00271514 /* main.m */,
+				2CBE7A0414D4EF8F00271514 /* witmob_office-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CBE79F114D4EF8F00271514 /* witmob_office */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CBE7A0A14D4EF8F00271514 /* Build configuration list for PBXNativeTarget "witmob_office" */;
+			buildPhases = (
+				2CBE79EE14D4EF8F00271514 /* Sources */,
+				2CBE79EF14D4EF8F00271514 /* Frameworks */,
+				2CBE79F014D4EF8F00271514 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = witmob_office;
+			productName = witmob_office;
+			productReference = 2CBE79F214D4EF8F00271514 /* witmob_office.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CBE79E914D4EF8F00271514 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 2CBE79EC14D4EF8F00271514 /* Build configuration list for PBXProject "witmob_office" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2CBE79E714D4EF8F00271514;
+			productRefGroup = 2CBE79F314D4EF8F00271514 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CBE79F114D4EF8F00271514 /* witmob_office */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CBE79F014D4EF8F00271514 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CBE7A0114D4EF8F00271514 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CBE79EE14D4EF8F00271514 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CBE7A0314D4EF8F00271514 /* main.m in Sources */,
+				2CBE7A0714D4EF8F00271514 /* OfficeAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2CBE79FF14D4EF8F00271514 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CBE7A0014D4EF8F00271514 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CBE7A0814D4EF8F00271514 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2CBE7A0914D4EF8F00271514 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CBE7A0B14D4EF8F00271514 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "witmob_office/witmob_office-Prefix.pch";
+				INFOPLIST_FILE = "witmob_office/witmob_office-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2CBE7A0C14D4EF8F00271514 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "witmob_office/witmob_office-Prefix.pch";
+				INFOPLIST_FILE = "witmob_office/witmob_office-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CBE79EC14D4EF8F00271514 /* Build configuration list for PBXProject "witmob_office" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CBE7A0814D4EF8F00271514 /* Debug */,
+				2CBE7A0914D4EF8F00271514 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CBE7A0A14D4EF8F00271514 /* Build configuration list for PBXNativeTarget "witmob_office" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CBE7A0B14D4EF8F00271514 /* Debug */,
+				2CBE7A0C14D4EF8F00271514 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CBE79E914D4EF8F00271514 /* Project object */;
+}
