@@ -20,11 +20,11 @@
 		2CBE79F614D4EF8F00271514 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2CBE79F814D4EF8F00271514 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2CBE79FA14D4EF8F00271514 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2CBE79FE14D4EF8F00271514 /* witmob_office-Info.plist */ = {isa = PBXFileReference; path = "witmob_office-Info.plist"; sourceTree = "<group>"; };
+		2CBE79FE14D4EF8F00271514 /* witmob_office-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "witmob_office-Info.plist"; sourceTree = "<group>"; };
 		2CBE7A0014D4EF8F00271514 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2CBE7A0214D4EF8F00271514 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2CBE7A0414D4EF8F00271514 /* witmob_office-Prefix.pch */ = {isa = PBXFileReference; path = "witmob_office-Prefix.pch"; sourceTree = "<group>"; };
-		2CBE7A0514D4EF8F00271514 /* OfficeAppDelegate.h */ = {isa = PBXFileReference; path = OfficeAppDelegate.h; sourceTree = "<group>"; };
+		2CBE7A0414D4EF8F00271514 /* witmob_office-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "witmob_office-Prefix.pch"; sourceTree = "<group>"; };
+		2CBE7A0514D4EF8F00271514 /* OfficeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OfficeAppDelegate.h; sourceTree = "<group>"; };
 		2CBE7A0614D4EF8F00271514 /* OfficeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OfficeAppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
