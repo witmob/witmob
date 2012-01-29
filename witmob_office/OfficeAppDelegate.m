@@ -1,13 +1,13 @@
 //
 //  OfficeAppDelegate.m
-//  witmob_office
+//  Witmob
 //
-//  Created by marcus wang on 12-1-29.
+//  Created by marcus wang on 12-1-28.
 //  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
 //
 
 #import "OfficeAppDelegate.h"
-
+#import "RootMainViewController.h"
 @implementation OfficeAppDelegate
 
 @synthesize window = _window;
@@ -16,7 +16,9 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    //    self.window.backgroundColor = [UIColor whiteColor];
+    RootMainViewController *rootMainViewController=[[RootMainViewController alloc] initWithNibName:@"RootMainViewController" bundle:nil];
+    self.window.rootViewController=rootMainViewController;
     [self.window makeKeyAndVisible];
     return YES;
 }
