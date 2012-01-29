@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface SearchViewController : UIViewController
+{
+   IBOutlet UITableView *rootTableView;
+}
+
+-(IBAction)onClickSearchButton:(id)sender;
 
 @end

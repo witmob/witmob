@@ -65,11 +65,15 @@
 //定义有多少行
 -(NSInteger) tableView:(UITableView *)table numberOfRowsInSection:(NSInteger)section 
 {
-	return 3;
+	return 13;
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     ActivityContentViewController *activityContentViewController=[[ActivityContentViewController alloc] initWithNibName:@"ActivityContentViewController" bundle:nil];
     [self.navigationController pushViewController:activityContentViewController animated:YES];
+}
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 62;
 }
 @end

@@ -36,10 +36,10 @@
 				<reference key="NSNextResponder"/>
 				<int key="NSvFlags">274</int>
 				<array class="NSMutableArray" key="NSSubviews">
-					<object class="IBUISegmentedControl" id="890026425">
+					<object class="IBUISegmentedControl" id="1007670890">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{47, 8}, {207, 30}}</string>
+						<string key="NSFrame">{{27, 8}, {248, 30}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:273</string>
@@ -49,9 +49,9 @@
 						<int key="IBNumberOfSegments">3</int>
 						<int key="IBSelectedSegmentIndex">0</int>
 						<array key="IBSegmentTitles">
-							<string>First</string>
-							<string>Second</string>
-							<string/>
+							<string>Task Detail</string>
+							<string>comments</string>
+							<string>Child Tasks</string>
 						</array>
 						<array class="NSMutableArray" key="IBSegmentWidths">
 							<real value="0.0"/>
@@ -74,7 +74,7 @@
 							<reference ref="4"/>
 						</array>
 					</object>
-					<object class="IBUITableView" id="123360306">
+					<object class="IBUITableView" id="96319547">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">274</int>
 						<string key="NSFrame">{{0, 45}, {320, 371}}</string>
@@ -136,8 +136,8 @@
 						<int key="objectID">1</int>
 						<reference key="object" ref="191373211"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="890026425"/>
-							<reference ref="123360306"/>
+							<reference ref="1007670890"/>
+							<reference ref="96319547"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -154,12 +154,12 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">7</int>
-						<reference key="object" ref="890026425"/>
+						<reference key="object" ref="1007670890"/>
 						<reference key="parent" ref="191373211"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">8</int>
-						<reference key="object" ref="123360306"/>
+						<reference key="object" ref="96319547"/>
 						<reference key="parent" ref="191373211"/>
 					</object>
 				</array>

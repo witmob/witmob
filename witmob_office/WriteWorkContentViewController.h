@@ -10,4 +10,6 @@
 
 @interface WriteWorkContentViewController : UIViewController
 
+-(IBAction)onClickSaveButton:(id)sender;
+
 @end

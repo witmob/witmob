@@ -47,5 +47,9 @@
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
+-(IBAction)onClickSearchButton:(id)sender
+{
 
+    rootTableView.hidden=NO;
+}
 @end

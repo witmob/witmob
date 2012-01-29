@@ -37,6 +37,13 @@
 		2CBE7A5514D524A100271514 /* ActivityTableCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CBE7A5414D524A000271514 /* ActivityTableCellView.xib */; };
 		2CBE7A5D14D5265400271514 /* ActivityContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBE7A5B14D5265300271514 /* ActivityContentViewController.m */; };
 		2CBE7A5E14D5265400271514 /* ActivityContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CBE7A5C14D5265300271514 /* ActivityContentViewController.xib */; };
+		2CBE7A6114D536F400271514 /* userpic_defaults_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CBE7A5F14D536F400271514 /* userpic_defaults_2.png */; };
+		2CBE7A6214D536F400271514 /* userpic_defaults_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CBE7A6014D536F400271514 /* userpic_defaults_3.png */; };
+		2CBE7A6614D53B4900271514 /* WriteWorkContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBE7A6414D53B4700271514 /* WriteWorkContentViewController.m */; };
+		2CBE7A6A14D5493900271514 /* LastViewedTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBE7A6914D5493800271514 /* LastViewedTableCell.m */; };
+		2CBE7A6C14D5494C00271514 /* LastViewedTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CBE7A6B14D5494B00271514 /* LastViewedTableCell.xib */; };
+		2CBE7A7014D54A9E00271514 /* UserStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBE7A6E14D54A9B00271514 /* UserStatusViewController.m */; };
+		2CBE7A7114D54A9E00271514 /* UserStatusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CBE7A6F14D54A9D00271514 /* UserStatusViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +90,16 @@
 		2CBE7A5A14D5265200271514 /* ActivityContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityContentViewController.h; sourceTree = "<group>"; };
 		2CBE7A5B14D5265300271514 /* ActivityContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityContentViewController.m; sourceTree = "<group>"; };
 		2CBE7A5C14D5265300271514 /* ActivityContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityContentViewController.xib; sourceTree = "<group>"; };
+		2CBE7A5F14D536F400271514 /* userpic_defaults_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userpic_defaults_2.png; sourceTree = "<group>"; };
+		2CBE7A6014D536F400271514 /* userpic_defaults_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userpic_defaults_3.png; sourceTree = "<group>"; };
+		2CBE7A6314D53B4700271514 /* WriteWorkContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteWorkContentViewController.h; sourceTree = "<group>"; };
+		2CBE7A6414D53B4700271514 /* WriteWorkContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WriteWorkContentViewController.m; sourceTree = "<group>"; };
+		2CBE7A6814D5493700271514 /* LastViewedTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LastViewedTableCell.h; sourceTree = "<group>"; };
+		2CBE7A6914D5493800271514 /* LastViewedTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LastViewedTableCell.m; sourceTree = "<group>"; };
+		2CBE7A6B14D5494B00271514 /* LastViewedTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LastViewedTableCell.xib; sourceTree = "<group>"; };
+		2CBE7A6D14D54A9A00271514 /* UserStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserStatusViewController.h; sourceTree = "<group>"; };
+		2CBE7A6E14D54A9B00271514 /* UserStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserStatusViewController.m; sourceTree = "<group>"; };
+		2CBE7A6F14D54A9D00271514 /* UserStatusViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserStatusViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +173,14 @@
 				2CBE7A5A14D5265200271514 /* ActivityContentViewController.h */,
 				2CBE7A5B14D5265300271514 /* ActivityContentViewController.m */,
 				2CBE7A5C14D5265300271514 /* ActivityContentViewController.xib */,
+				2CBE7A6314D53B4700271514 /* WriteWorkContentViewController.h */,
+				2CBE7A6414D53B4700271514 /* WriteWorkContentViewController.m */,
+				2CBE7A6814D5493700271514 /* LastViewedTableCell.h */,
+				2CBE7A6914D5493800271514 /* LastViewedTableCell.m */,
+				2CBE7A6B14D5494B00271514 /* LastViewedTableCell.xib */,
+				2CBE7A6D14D54A9A00271514 /* UserStatusViewController.h */,
+				2CBE7A6E14D54A9B00271514 /* UserStatusViewController.m */,
+				2CBE7A6F14D54A9D00271514 /* UserStatusViewController.xib */,
 			);
 			path = witmob_office;
 			sourceTree = "<group>";
@@ -174,6 +199,8 @@
 		2CBE7A0D14D4F45C00271514 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				2CBE7A5F14D536F400271514 /* userpic_defaults_2.png */,
+				2CBE7A6014D536F400271514 /* userpic_defaults_3.png */,
 				2CBE7A4714D4F5ED00271514 /* home_gray.png */,
 				2CBE7A0F14D4F47400271514 /* home.png */,
 				2CBE7A1014D4F47400271514 /* activity_gray@2x.png */,
@@ -255,6 +282,10 @@
 				2CBE7A4814D4F5ED00271514 /* home_gray.png in Resources */,
 				2CBE7A5514D524A100271514 /* ActivityTableCellView.xib in Resources */,
 				2CBE7A5E14D5265400271514 /* ActivityContentViewController.xib in Resources */,
+				2CBE7A6114D536F400271514 /* userpic_defaults_2.png in Resources */,
+				2CBE7A6214D536F400271514 /* userpic_defaults_3.png in Resources */,
+				2CBE7A6C14D5494C00271514 /* LastViewedTableCell.xib in Resources */,
+				2CBE7A7114D54A9E00271514 /* UserStatusViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +307,9 @@
 				2CBE7A4414D4F48700271514 /* CollaboratorsViewController.m in Sources */,
 				2CBE7A5314D5248C00271514 /* ActivityTableCellView.m in Sources */,
 				2CBE7A5D14D5265400271514 /* ActivityContentViewController.m in Sources */,
+				2CBE7A6614D53B4900271514 /* WriteWorkContentViewController.m in Sources */,
+				2CBE7A6A14D5493900271514 /* LastViewedTableCell.m in Sources */,
+				2CBE7A7014D54A9E00271514 /* UserStatusViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -48,4 +48,9 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+-(IBAction)onClickSaveButton:(id)sender
+{
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
 @end

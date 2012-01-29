@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface FavortiesViewController : UIViewController
-
+<UITableViewDataSource,UITableViewDelegate>
+{
+    
+    IBOutlet UITableView *rootTableView;
+    
+}
+-(IBAction)onChangeSegments:(id)sender;
 @end
