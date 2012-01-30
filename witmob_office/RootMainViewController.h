@@ -10,6 +10,15 @@
 
 @interface RootMainViewController : UIViewController
 
+{
+    
+   __weak IBOutlet UITextField *userNameFiled;
+
+    __weak IBOutlet UITextField *passwordFiled;
+    
+    __weak UITextField *activeField;
+}
+
 -(IBAction)onClickLoginButton:(id)sender;
 
 @end

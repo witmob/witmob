@@ -14,6 +14,12 @@
 //#import "SearchViewController.h"
 //#import "CollaboratorsViewController.h"
 
+#import "CheckTools.h"
+
+@interface RootMainViewController()
+-(void)onShowWarnMessage;  
+@end
+
 @implementation RootMainViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -88,8 +94,42 @@
 //    NSArray *array=[NSArray arrayWithObjects:homeViewController, activityViewController, favortiesViewController, searchViewController, collaboratorsViewController, nil];
 //    rootTabBarController.viewControllers=array;
     
-    UIStoryboard *rootStoryBoard=[UIStoryboard storyboardWithName:@"witmob" bundle:nil];
-    [self.view.window setRootViewController:rootStoryBoard.instantiateInitialViewController];
-    
+    if (![CheckTools checkIsEmpty:userNameFiled]&&![CheckTools checkIsEmpty:passwordFiled]) {
+        UIStoryboard *rootStoryBoard=[UIStoryboard storyboardWithName:@"witmob" bundle:nil];
+        [self.view.window setRootViewController:rootStoryBoard.instantiateInitialViewController]; 
+    }else{
+        [self onShowWarnMessage];
+    }
+    [activeField resignFirstResponder];
+}
+
+- (void)textFieldDidBeginEditing:(UITextField *)textField
+{
+    activeField = textField;
+}
+- (void)textFieldDidEndEditing:(UITextField *)textField
+{
+    activeField = nil;
+}
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    switch ([textField tag]) {
+        case 0:
+            //用户名 到密码
+            [passwordFiled becomeFirstResponder];
+            break;
+        case 1:
+            //完成
+            [self onClickLoginButton:nil];
+            break;     
+        default:
+            break;
+    }
+    return YES;
+}
+-(void)onShowWarnMessage
+{
+    UIAlertView *alertView=[[UIAlertView alloc] initWithTitle:@"警告" message:@"用户名或密码不能为空!" delegate:self  cancelButtonTitle:@"确认" otherButtonTitles:nil, nil];
+    [alertView show];
 }
 @end
