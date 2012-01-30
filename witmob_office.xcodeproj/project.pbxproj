@@ -26,6 +26,9 @@
 		2C3FF26314D687EE00375B34 /* account_big.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C3FF25D14D687EE00375B34 /* account_big.png */; };
 		2C3FF26414D687EE00375B34 /* search_big.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C3FF25E14D687EE00375B34 /* search_big.png */; };
 		2C3FF26514D687EE00375B34 /* tasks_big.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C3FF25F14D687EE00375B34 /* tasks_big.png */; };
+		2C3FF26914D68C9500375B34 /* posted_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C3FF26614D68C9500375B34 /* posted_small.png */; };
+		2C3FF26A14D68C9500375B34 /* task_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C3FF26714D68C9500375B34 /* task_small.png */; };
+		2C3FF26B14D68C9500375B34 /* newworkspace_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C3FF26814D68C9500375B34 /* newworkspace_small.png */; };
 		2CBE79F714D4EF8F00271514 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CBE79F614D4EF8F00271514 /* UIKit.framework */; };
 		2CBE79F914D4EF8F00271514 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CBE79F814D4EF8F00271514 /* Foundation.framework */; };
 		2CBE79FB14D4EF8F00271514 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CBE79FA14D4EF8F00271514 /* CoreGraphics.framework */; };
@@ -76,6 +79,9 @@
 		2C3FF25D14D687EE00375B34 /* account_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = account_big.png; sourceTree = "<group>"; };
 		2C3FF25E14D687EE00375B34 /* search_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_big.png; sourceTree = "<group>"; };
 		2C3FF25F14D687EE00375B34 /* tasks_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tasks_big.png; sourceTree = "<group>"; };
+		2C3FF26614D68C9500375B34 /* posted_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = posted_small.png; sourceTree = "<group>"; };
+		2C3FF26714D68C9500375B34 /* task_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = task_small.png; sourceTree = "<group>"; };
+		2C3FF26814D68C9500375B34 /* newworkspace_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newworkspace_small.png; sourceTree = "<group>"; };
 		2CBE79F214D4EF8F00271514 /* witmob_office.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = witmob_office.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CBE79F614D4EF8F00271514 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2CBE79F814D4EF8F00271514 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -220,6 +226,9 @@
 		2CBE7A0D14D4F45C00271514 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				2C3FF26614D68C9500375B34 /* posted_small.png */,
+				2C3FF26714D68C9500375B34 /* task_small.png */,
+				2C3FF26814D68C9500375B34 /* newworkspace_small.png */,
 				2C3FF23414D6779A00375B34 /* Default.png */,
 				2C3FF25A14D687EE00375B34 /* activity_big.png */,
 				2C3FF25B14D687EE00375B34 /* workspace_big.png */,
@@ -323,6 +332,9 @@
 				2C3FF26314D687EE00375B34 /* account_big.png in Resources */,
 				2C3FF26414D687EE00375B34 /* search_big.png in Resources */,
 				2C3FF26514D687EE00375B34 /* tasks_big.png in Resources */,
+				2C3FF26914D68C9500375B34 /* posted_small.png in Resources */,
+				2C3FF26A14D68C9500375B34 /* task_small.png in Resources */,
+				2C3FF26B14D68C9500375B34 /* newworkspace_small.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
