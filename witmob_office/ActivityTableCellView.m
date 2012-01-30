@@ -7,7 +7,7 @@
 //
 
 #import "ActivityTableCellView.h"
-
+#import "Activity.h"
 @implementation ActivityTableCellView
 
 - (id)initWithFrame:(CGRect)frame
@@ -19,13 +19,10 @@
     return self;
 }
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect
+-(void)onShowCell:(Activity *)activity
 {
-    // Drawing code
+    [iconImage setImage:[UIImage imageNamed:activity.icon]];
+    [typelable setText:activity.type];
+    [authorLable setText:[NSString stringWithFormat:@"by %@ in ios",activity.author]];
 }
-*/
-
 @end

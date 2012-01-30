@@ -29,6 +29,7 @@
 		2C3FF26914D68C9500375B34 /* posted_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C3FF26614D68C9500375B34 /* posted_small.png */; };
 		2C3FF26A14D68C9500375B34 /* task_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C3FF26714D68C9500375B34 /* task_small.png */; };
 		2C3FF26B14D68C9500375B34 /* newworkspace_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C3FF26814D68C9500375B34 /* newworkspace_small.png */; };
+		2C3FF26E14D68E5B00375B34 /* Activity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3FF26D14D68E5B00375B34 /* Activity.m */; };
 		2CBE79F714D4EF8F00271514 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CBE79F614D4EF8F00271514 /* UIKit.framework */; };
 		2CBE79F914D4EF8F00271514 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CBE79F814D4EF8F00271514 /* Foundation.framework */; };
 		2CBE79FB14D4EF8F00271514 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CBE79FA14D4EF8F00271514 /* CoreGraphics.framework */; };
@@ -82,6 +83,8 @@
 		2C3FF26614D68C9500375B34 /* posted_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = posted_small.png; sourceTree = "<group>"; };
 		2C3FF26714D68C9500375B34 /* task_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = task_small.png; sourceTree = "<group>"; };
 		2C3FF26814D68C9500375B34 /* newworkspace_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newworkspace_small.png; sourceTree = "<group>"; };
+		2C3FF26C14D68E5B00375B34 /* Activity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Activity.h; sourceTree = "<group>"; };
+		2C3FF26D14D68E5B00375B34 /* Activity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Activity.m; sourceTree = "<group>"; };
 		2CBE79F214D4EF8F00271514 /* witmob_office.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = witmob_office.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CBE79F614D4EF8F00271514 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2CBE79F814D4EF8F00271514 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -182,6 +185,11 @@
 				2CBE7A2914D4F48700271514 /* HomeViewController.m */,
 				2CBE7A2B14D4F48700271514 /* ActivityViewController.h */,
 				2CBE7A2C14D4F48700271514 /* ActivityViewController.m */,
+				2CBE7A5114D5248B00271514 /* ActivityTableCellView.h */,
+				2CBE7A5214D5248C00271514 /* ActivityTableCellView.m */,
+				2CBE7A5414D524A000271514 /* ActivityTableCellView.xib */,
+				2C3FF26C14D68E5B00375B34 /* Activity.h */,
+				2C3FF26D14D68E5B00375B34 /* Activity.m */,
 				2CBE7A2E14D4F48700271514 /* FavortiesViewController.h */,
 				2CBE7A2F14D4F48700271514 /* FavortiesViewController.m */,
 				2CBE7A3114D4F48700271514 /* SearchViewController.h */,
@@ -192,9 +200,6 @@
 				2CBE7A0514D4EF8F00271514 /* OfficeAppDelegate.h */,
 				2CBE7A0614D4EF8F00271514 /* OfficeAppDelegate.m */,
 				2CBE79FD14D4EF8F00271514 /* Supporting Files */,
-				2CBE7A5114D5248B00271514 /* ActivityTableCellView.h */,
-				2CBE7A5214D5248C00271514 /* ActivityTableCellView.m */,
-				2CBE7A5414D524A000271514 /* ActivityTableCellView.xib */,
 				2CBE7A5A14D5265200271514 /* ActivityContentViewController.h */,
 				2CBE7A5B14D5265300271514 /* ActivityContentViewController.m */,
 				2CBE7A5C14D5265300271514 /* ActivityContentViewController.xib */,
@@ -360,6 +365,7 @@
 				2CBE7A6A14D5493900271514 /* LastViewedTableCell.m in Sources */,
 				2CBE7A7014D54A9E00271514 /* UserStatusViewController.m in Sources */,
 				2C3FF22B14D66B0600375B34 /* CheckTools.m in Sources */,
+				2C3FF26E14D68E5B00375B34 /* Activity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

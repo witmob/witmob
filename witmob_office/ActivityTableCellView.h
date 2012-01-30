@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class Activity;
 @interface ActivityTableCellView : UITableViewCell
+{
+    __weak IBOutlet UIImageView *iconImage;
 
+    __weak IBOutlet UILabel *typelable;
+    __weak IBOutlet UILabel *authorLable;
+}
+-(void)onShowCell:(Activity *)activity;
 @end

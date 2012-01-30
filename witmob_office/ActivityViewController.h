@@ -11,8 +11,10 @@
 @interface ActivityViewController : UIViewController
 <UITableViewDelegate,UITableViewDataSource>
 {
-    NSArray *rootArray;
-    IBOutlet UITableView *rootTableView;
+    __weak IBOutlet UITableView *rootTableView;
+    
+    NSMutableDictionary *rootDictionary;
+    
 }
 
 @end
