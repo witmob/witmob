@@ -10,7 +10,8 @@
 
 @interface SearchViewController : UIViewController
 {
-   IBOutlet UITableView *rootTableView;
+    __weak IBOutlet UITableView *rootTableView;
+    __weak IBOutlet UITextField *searchTextField;
 }
 
 -(IBAction)onClickSearchButton:(id)sender;

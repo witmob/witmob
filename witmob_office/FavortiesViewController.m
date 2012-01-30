@@ -65,7 +65,7 @@
 //定义有多少行
 -(NSInteger) tableView:(UITableView *)table numberOfRowsInSection:(NSInteger)section 
 {
-	return 13;
+	return 2;
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -74,9 +74,8 @@
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 62;
+    return 42;
 }
-
 -(IBAction)onChangeSegments:(id)sender
 {
     UISegmentedControl *segment=(UISegmentedControl *)sender;
@@ -91,5 +90,4 @@
             break;
     }
 }
-
 @end

@@ -49,7 +49,7 @@
 }
 -(IBAction)onClickSearchButton:(id)sender
 {
-
+    [searchTextField resignFirstResponder];
     rootTableView.hidden=NO;
 }
 @end
