@@ -37,6 +37,8 @@
 		2C3FF27D14D6A45D00375B34 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C3FF27A14D6A45C00375B34 /* icon-72.png */; };
 		2C3FF27E14D6A45D00375B34 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C3FF27B14D6A45D00375B34 /* icon.png */; };
 		2C3FF27F14D6A45D00375B34 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C3FF27C14D6A45D00375B34 /* icon@2x.png */; };
+		2C3FF28214D785B700375B34 /* ActivityContentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3FF28114D785B500375B34 /* ActivityContentTableViewCell.m */; };
+		2C3FF28414D785D600375B34 /* ActivityContentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C3FF28314D785D500375B34 /* ActivityContentTableViewCell.xib */; };
 		2CBE79F714D4EF8F00271514 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CBE79F614D4EF8F00271514 /* UIKit.framework */; };
 		2CBE79F914D4EF8F00271514 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CBE79F814D4EF8F00271514 /* Foundation.framework */; };
 		2CBE79FB14D4EF8F00271514 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CBE79FA14D4EF8F00271514 /* CoreGraphics.framework */; };
@@ -45,8 +47,6 @@
 		2CBE7A0714D4EF8F00271514 /* OfficeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBE7A0614D4EF8F00271514 /* OfficeAppDelegate.m */; };
 		2CBE7A3814D4F48700271514 /* RootMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBE7A2314D4F48700271514 /* RootMainViewController.m */; };
 		2CBE7A3914D4F48700271514 /* RootMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CBE7A2414D4F48700271514 /* RootMainViewController.xib */; };
-		2CBE7A3A14D4F48700271514 /* RootNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBE7A2614D4F48700271514 /* RootNavigationViewController.m */; };
-		2CBE7A3B14D4F48700271514 /* RootNavigationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CBE7A2714D4F48700271514 /* RootNavigationViewController.xib */; };
 		2CBE7A3C14D4F48700271514 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBE7A2914D4F48700271514 /* HomeViewController.m */; };
 		2CBE7A3E14D4F48700271514 /* ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBE7A2C14D4F48700271514 /* ActivityViewController.m */; };
 		2CBE7A4014D4F48700271514 /* FavortiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBE7A2F14D4F48700271514 /* FavortiesViewController.m */; };
@@ -100,6 +100,9 @@
 		2C3FF27A14D6A45C00375B34 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
 		2C3FF27B14D6A45D00375B34 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		2C3FF27C14D6A45D00375B34 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		2C3FF28014D785B400375B34 /* ActivityContentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityContentTableViewCell.h; sourceTree = "<group>"; };
+		2C3FF28114D785B500375B34 /* ActivityContentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityContentTableViewCell.m; sourceTree = "<group>"; };
+		2C3FF28314D785D500375B34 /* ActivityContentTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityContentTableViewCell.xib; sourceTree = "<group>"; };
 		2CBE79F214D4EF8F00271514 /* witmob_office.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = witmob_office.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CBE79F614D4EF8F00271514 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2CBE79F814D4EF8F00271514 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -113,9 +116,6 @@
 		2CBE7A2214D4F48700271514 /* RootMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootMainViewController.h; sourceTree = "<group>"; };
 		2CBE7A2314D4F48700271514 /* RootMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootMainViewController.m; sourceTree = "<group>"; };
 		2CBE7A2414D4F48700271514 /* RootMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootMainViewController.xib; sourceTree = "<group>"; };
-		2CBE7A2514D4F48700271514 /* RootNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootNavigationViewController.h; sourceTree = "<group>"; };
-		2CBE7A2614D4F48700271514 /* RootNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNavigationViewController.m; sourceTree = "<group>"; };
-		2CBE7A2714D4F48700271514 /* RootNavigationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootNavigationViewController.xib; sourceTree = "<group>"; };
 		2CBE7A2814D4F48700271514 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		2CBE7A2914D4F48700271514 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		2CBE7A2B14D4F48700271514 /* ActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityViewController.h; sourceTree = "<group>"; };
@@ -159,6 +159,92 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C07990214D7D83700B7924F /* login */ = {
+			isa = PBXGroup;
+			children = (
+				2CBE7A2214D4F48700271514 /* RootMainViewController.h */,
+				2CBE7A2314D4F48700271514 /* RootMainViewController.m */,
+				2CBE7A2414D4F48700271514 /* RootMainViewController.xib */,
+			);
+			name = login;
+			sourceTree = "<group>";
+		};
+		2C07990414D7D85800B7924F /* home */ = {
+			isa = PBXGroup;
+			children = (
+				2CBE7A6314D53B4700271514 /* WriteWorkContentViewController.h */,
+				2CBE7A6414D53B4700271514 /* WriteWorkContentViewController.m */,
+				2CBE7A2814D4F48700271514 /* HomeViewController.h */,
+				2CBE7A2914D4F48700271514 /* HomeViewController.m */,
+			);
+			name = home;
+			sourceTree = "<group>";
+		};
+		2C07990514D7D86F00B7924F /* activity */ = {
+			isa = PBXGroup;
+			children = (
+				2CBE7A5A14D5265200271514 /* ActivityContentViewController.h */,
+				2CBE7A5B14D5265300271514 /* ActivityContentViewController.m */,
+				2CBE7A5C14D5265300271514 /* ActivityContentViewController.xib */,
+				2C3FF28014D785B400375B34 /* ActivityContentTableViewCell.h */,
+				2C3FF28114D785B500375B34 /* ActivityContentTableViewCell.m */,
+				2C3FF28314D785D500375B34 /* ActivityContentTableViewCell.xib */,
+				2CBE7A2B14D4F48700271514 /* ActivityViewController.h */,
+				2CBE7A2C14D4F48700271514 /* ActivityViewController.m */,
+				2CBE7A5114D5248B00271514 /* ActivityTableCellView.h */,
+				2CBE7A5214D5248C00271514 /* ActivityTableCellView.m */,
+				2CBE7A5414D524A000271514 /* ActivityTableCellView.xib */,
+				2C3FF26C14D68E5B00375B34 /* Activity.h */,
+				2C3FF26D14D68E5B00375B34 /* Activity.m */,
+			);
+			name = activity;
+			sourceTree = "<group>";
+		};
+		2C07990614D7D88F00B7924F /* favorties */ = {
+			isa = PBXGroup;
+			children = (
+				2CBE7A6814D5493700271514 /* LastViewedTableCell.h */,
+				2CBE7A6914D5493800271514 /* LastViewedTableCell.m */,
+				2CBE7A6B14D5494B00271514 /* LastViewedTableCell.xib */,
+				2CBE7A2E14D4F48700271514 /* FavortiesViewController.h */,
+				2CBE7A2F14D4F48700271514 /* FavortiesViewController.m */,
+			);
+			name = favorties;
+			sourceTree = "<group>";
+		};
+		2C07990714D7D8B700B7924F /* collaborators */ = {
+			isa = PBXGroup;
+			children = (
+				2CBE7A3414D4F48700271514 /* CollaboratorsViewController.h */,
+				2CBE7A3514D4F48700271514 /* CollaboratorsViewController.m */,
+				2C3FF27114D6A22400375B34 /* CollaboratorTableViewCell.h */,
+				2C3FF27214D6A22400375B34 /* CollaboratorTableViewCell.m */,
+				2C3FF27414D6A23B00375B34 /* CollaboratorTableViewCell.xib */,
+			);
+			name = collaborators;
+			sourceTree = "<group>";
+		};
+		2C07990814D7D8CB00B7924F /* search */ = {
+			isa = PBXGroup;
+			children = (
+				2CBE7A6D14D54A9A00271514 /* UserStatusViewController.h */,
+				2CBE7A6E14D54A9B00271514 /* UserStatusViewController.m */,
+				2CBE7A6F14D54A9D00271514 /* UserStatusViewController.xib */,
+				2CBE7A3114D4F48700271514 /* SearchViewController.h */,
+				2CBE7A3214D4F48700271514 /* SearchViewController.m */,
+			);
+			name = search;
+			sourceTree = "<group>";
+		};
+		2C07990914D7D8FA00B7924F /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				2C3FF22914D66B0600375B34 /* CheckTools.h */,
+				2C3FF22A14D66B0600375B34 /* CheckTools.m */,
+			);
+			name = tool;
+			sourceTree = "<group>";
+		};
 		2CBE79E714D4EF8F00271514 = {
 			isa = PBXGroup;
 			children = (
@@ -190,47 +276,17 @@
 		2CBE79FC14D4EF8F00271514 /* witmob_office */ = {
 			isa = PBXGroup;
 			children = (
-				2CBE7A2214D4F48700271514 /* RootMainViewController.h */,
-				2CBE7A2314D4F48700271514 /* RootMainViewController.m */,
-				2CBE7A2414D4F48700271514 /* RootMainViewController.xib */,
-				2CBE7A2514D4F48700271514 /* RootNavigationViewController.h */,
-				2CBE7A2614D4F48700271514 /* RootNavigationViewController.m */,
-				2CBE7A2714D4F48700271514 /* RootNavigationViewController.xib */,
-				2CBE7A2814D4F48700271514 /* HomeViewController.h */,
-				2CBE7A2914D4F48700271514 /* HomeViewController.m */,
-				2CBE7A2B14D4F48700271514 /* ActivityViewController.h */,
-				2CBE7A2C14D4F48700271514 /* ActivityViewController.m */,
-				2CBE7A5114D5248B00271514 /* ActivityTableCellView.h */,
-				2CBE7A5214D5248C00271514 /* ActivityTableCellView.m */,
-				2CBE7A5414D524A000271514 /* ActivityTableCellView.xib */,
-				2C3FF26C14D68E5B00375B34 /* Activity.h */,
-				2C3FF26D14D68E5B00375B34 /* Activity.m */,
-				2CBE7A2E14D4F48700271514 /* FavortiesViewController.h */,
-				2CBE7A2F14D4F48700271514 /* FavortiesViewController.m */,
-				2CBE7A6814D5493700271514 /* LastViewedTableCell.h */,
-				2CBE7A6914D5493800271514 /* LastViewedTableCell.m */,
-				2CBE7A6B14D5494B00271514 /* LastViewedTableCell.xib */,
-				2CBE7A3114D4F48700271514 /* SearchViewController.h */,
-				2CBE7A3214D4F48700271514 /* SearchViewController.m */,
-				2CBE7A3414D4F48700271514 /* CollaboratorsViewController.h */,
-				2CBE7A3514D4F48700271514 /* CollaboratorsViewController.m */,
-				2C3FF27114D6A22400375B34 /* CollaboratorTableViewCell.h */,
-				2C3FF27214D6A22400375B34 /* CollaboratorTableViewCell.m */,
-				2C3FF27414D6A23B00375B34 /* CollaboratorTableViewCell.xib */,
+				2C07990214D7D83700B7924F /* login */,
+				2C07990414D7D85800B7924F /* home */,
+				2C07990514D7D86F00B7924F /* activity */,
+				2C07990614D7D88F00B7924F /* favorties */,
+				2C07990814D7D8CB00B7924F /* search */,
+				2C07990714D7D8B700B7924F /* collaborators */,
+				2C07990914D7D8FA00B7924F /* tool */,
 				2CBE7A3714D4F48700271514 /* witmob.storyboard */,
 				2CBE7A0514D4EF8F00271514 /* OfficeAppDelegate.h */,
 				2CBE7A0614D4EF8F00271514 /* OfficeAppDelegate.m */,
 				2CBE79FD14D4EF8F00271514 /* Supporting Files */,
-				2CBE7A5A14D5265200271514 /* ActivityContentViewController.h */,
-				2CBE7A5B14D5265300271514 /* ActivityContentViewController.m */,
-				2CBE7A5C14D5265300271514 /* ActivityContentViewController.xib */,
-				2CBE7A6314D53B4700271514 /* WriteWorkContentViewController.h */,
-				2CBE7A6414D53B4700271514 /* WriteWorkContentViewController.m */,
-				2CBE7A6D14D54A9A00271514 /* UserStatusViewController.h */,
-				2CBE7A6E14D54A9B00271514 /* UserStatusViewController.m */,
-				2CBE7A6F14D54A9D00271514 /* UserStatusViewController.xib */,
-				2C3FF22914D66B0600375B34 /* CheckTools.h */,
-				2C3FF22A14D66B0600375B34 /* CheckTools.m */,
 			);
 			path = witmob_office;
 			sourceTree = "<group>";
@@ -334,7 +390,6 @@
 			files = (
 				2CBE7A0114D4EF8F00271514 /* InfoPlist.strings in Resources */,
 				2CBE7A3914D4F48700271514 /* RootMainViewController.xib in Resources */,
-				2CBE7A3B14D4F48700271514 /* RootNavigationViewController.xib in Resources */,
 				2CBE7A4614D4F48700271514 /* witmob.storyboard in Resources */,
 				2CBE7A5514D524A100271514 /* ActivityTableCellView.xib in Resources */,
 				2CBE7A5E14D5265400271514 /* ActivityContentViewController.xib in Resources */,
@@ -369,6 +424,7 @@
 				2C3FF27D14D6A45D00375B34 /* icon-72.png in Resources */,
 				2C3FF27E14D6A45D00375B34 /* icon.png in Resources */,
 				2C3FF27F14D6A45D00375B34 /* icon@2x.png in Resources */,
+				2C3FF28414D785D600375B34 /* ActivityContentTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,7 +438,6 @@
 				2CBE7A0314D4EF8F00271514 /* main.m in Sources */,
 				2CBE7A0714D4EF8F00271514 /* OfficeAppDelegate.m in Sources */,
 				2CBE7A3814D4F48700271514 /* RootMainViewController.m in Sources */,
-				2CBE7A3A14D4F48700271514 /* RootNavigationViewController.m in Sources */,
 				2CBE7A3C14D4F48700271514 /* HomeViewController.m in Sources */,
 				2CBE7A3E14D4F48700271514 /* ActivityViewController.m in Sources */,
 				2CBE7A4014D4F48700271514 /* FavortiesViewController.m in Sources */,
@@ -396,6 +451,7 @@
 				2C3FF22B14D66B0600375B34 /* CheckTools.m in Sources */,
 				2C3FF26E14D68E5B00375B34 /* Activity.m in Sources */,
 				2C3FF27314D6A22500375B34 /* CollaboratorTableViewCell.m in Sources */,
+				2C3FF28214D785B700375B34 /* ActivityContentTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

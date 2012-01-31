@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ActivityContentViewController : UIViewController
+<UITableViewDataSource,UITableViewDelegate>
 
 @end
