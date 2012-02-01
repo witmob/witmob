@@ -11,9 +11,6 @@
 @implementation CheckTools
 +(BOOL)checkIsEmpty:(UITextField *)filed
 {
-    if ([filed.text length]) {
-        return NO;
-    }
-    return YES;
+    return ![filed.text length];
 }
 @end

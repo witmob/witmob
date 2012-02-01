@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C07990E14D7F43200B7924F /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C07990C14D7F43200B7924F /* AccountViewController.m */; };
+		2C07991814D8E6FF00B7924F /* WorkSpacesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C07991614D8E6FF00B7924F /* WorkSpacesViewController.m */; };
 		2C3FF22814D654DC00375B34 /* cdlogo_mobile.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C3FF22714D654DC00375B34 /* cdlogo_mobile.png */; };
 		2C3FF22B14D66B0600375B34 /* CheckTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3FF22A14D66B0600375B34 /* CheckTools.m */; };
 		2C3FF23F14D6832100375B34 /* activity_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C3FF23E14D6832100375B34 /* activity_gray.png */; };
@@ -67,6 +69,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C07990B14D7F43200B7924F /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
+		2C07990C14D7F43200B7924F /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
+		2C07991514D8E6FF00B7924F /* WorkSpacesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkSpacesViewController.h; sourceTree = "<group>"; };
+		2C07991614D8E6FF00B7924F /* WorkSpacesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkSpacesViewController.m; sourceTree = "<group>"; };
 		2C3FF22714D654DC00375B34 /* cdlogo_mobile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cdlogo_mobile.png; sourceTree = "<group>"; };
 		2C3FF22914D66B0600375B34 /* CheckTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckTools.h; sourceTree = "<group>"; };
 		2C3FF22A14D66B0600375B34 /* CheckTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckTools.m; sourceTree = "<group>"; };
@@ -172,6 +178,8 @@
 		2C07990414D7D85800B7924F /* home */ = {
 			isa = PBXGroup;
 			children = (
+				2C07991414D8E6CF00B7924F /* workspaces */,
+				2C07990A14D7F3FF00B7924F /* account */,
 				2CBE7A6314D53B4700271514 /* WriteWorkContentViewController.h */,
 				2CBE7A6414D53B4700271514 /* WriteWorkContentViewController.m */,
 				2CBE7A2814D4F48700271514 /* HomeViewController.h */,
@@ -243,6 +251,24 @@
 				2C3FF22A14D66B0600375B34 /* CheckTools.m */,
 			);
 			name = tool;
+			sourceTree = "<group>";
+		};
+		2C07990A14D7F3FF00B7924F /* account */ = {
+			isa = PBXGroup;
+			children = (
+				2C07990B14D7F43200B7924F /* AccountViewController.h */,
+				2C07990C14D7F43200B7924F /* AccountViewController.m */,
+			);
+			name = account;
+			sourceTree = "<group>";
+		};
+		2C07991414D8E6CF00B7924F /* workspaces */ = {
+			isa = PBXGroup;
+			children = (
+				2C07991514D8E6FF00B7924F /* WorkSpacesViewController.h */,
+				2C07991614D8E6FF00B7924F /* WorkSpacesViewController.m */,
+			);
+			name = workspaces;
 			sourceTree = "<group>";
 		};
 		2CBE79E714D4EF8F00271514 = {
@@ -452,6 +478,8 @@
 				2C3FF26E14D68E5B00375B34 /* Activity.m in Sources */,
 				2C3FF27314D6A22500375B34 /* CollaboratorTableViewCell.m in Sources */,
 				2C3FF28214D785B700375B34 /* ActivityContentTableViewCell.m in Sources */,
+				2C07990E14D7F43200B7924F /* AccountViewController.m in Sources */,
+				2C07991814D8E6FF00B7924F /* WorkSpacesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

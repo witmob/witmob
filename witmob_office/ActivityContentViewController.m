@@ -79,4 +79,21 @@
 {
     return 62;
 }
+-(IBAction)onChangeSegments:(id)sender
+{
+    UISegmentedControl *segments=(UISegmentedControl *)sender;
+    switch ([segments selectedSegmentIndex]) {
+        case 0:
+            rootTableView.hidden=YES;
+            break;
+        case 1:
+            rootTableView.hidden=NO;
+            break;
+        case 2:
+            rootTableView.hidden=YES;
+            break;
+        default:
+            break;
+    }
+}
 @end

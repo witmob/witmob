@@ -1,14 +1,14 @@
 //
-//  HomeViewController.m
-//  Witmob
+//  WorkSpacesViewController.m
+//  witmob_office
 //
-//  Created by marcus wang on 12-1-28.
+//  Created by marcus wang on 12-2-1.
 //  Copyright (c) 2012年 www.witmob.com. All rights reserved.
 //
 
-#import "HomeViewController.h"
+#import "WorkSpacesViewController.h"
 
-@implementation HomeViewController
+@implementation WorkSpacesViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -41,33 +41,26 @@
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }
--(void)dealloc
-{
-  NSLog(@"HomeViewController dealloc");
-}
+
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
-
-#pragma 处理点击按钮事件
--(IBAction)onClickButton:(id)sender
+#pragma tableView
+-(UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-
-    switch ([sender tag]) {
-        case 1:
-            //到activity中
-            [self.tabBarController setSelectedIndex:1];
-            break;
-        case 2:
-            //到search中
-            [self.tabBarController setSelectedIndex:3];
-            break;
-     
-        default:
-            break;
-    }
+	static NSString *tableIdentifier = @"accountcell";
+	UITableViewCell *cell = (UITableViewCell *)[tableView dequeueReusableCellWithIdentifier:tableIdentifier];
+	if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:tableIdentifier];
+	}
+        [cell.textLabel setText:@"ios"];
+        return cell;
 }
-
+//定义有多少行
+-(NSInteger) tableView:(UITableView *)table numberOfRowsInSection:(NSInteger)section 
+{
+    return 1;
+}
 @end

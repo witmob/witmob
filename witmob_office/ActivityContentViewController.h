@@ -10,5 +10,10 @@
 
 @interface ActivityContentViewController : UIViewController
 <UITableViewDataSource,UITableViewDelegate>
+{
+    __weak IBOutlet UITableView *rootTableView;
+}
+
+-(IBAction)onChangeSegments:(id)sender;
 
 @end
