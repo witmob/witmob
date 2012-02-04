@@ -8,12 +8,14 @@
 
 #import "OfficeAppDelegate.h"
 #import "RootMainViewController.h"
+#import "ManagerDatabase.h"
 @implementation OfficeAppDelegate
 
 @synthesize window = _window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+     [[ManagerDatabase defaultManager] openDatabase];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     //    self.window.backgroundColor = [UIColor whiteColor];
