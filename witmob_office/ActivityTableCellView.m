@@ -19,10 +19,10 @@
     return self;
 }
 
--(void)onShowCell:(Activity *)activity
+-(void)onShowCell:(NSDictionary *)activity
 {
-    [iconImage setImage:[UIImage imageNamed:activity.icon]];
-    [typelable setText:activity.type];
-    [authorLable setText:[NSString stringWithFormat:@"by %@ in ios",activity.author]];
+    [iconImage setImage:[UIImage imageNamed:[activity objectForKey:@"activityIcon"]]];
+    [typelable setText:[activity objectForKey:@"activityType"]];
+    [authorLable setText:[NSString stringWithFormat:@"by %@ in ios",[activity objectForKey:@"activityAuthor"]]];
 }
 @end

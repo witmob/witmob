@@ -13,7 +13,7 @@
 {
     __weak IBOutlet UITableView *rootTableView;
     
-    NSMutableDictionary *rootDictionary;
+    NSArray *rootDictionary;
     
 }
 

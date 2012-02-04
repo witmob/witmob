@@ -15,5 +15,5 @@
     __weak IBOutlet UILabel *typelable;
     __weak IBOutlet UILabel *authorLable;
 }
--(void)onShowCell:(Activity *)activity;
+-(void)onShowCell:(NSDictionary *)activity;
 @end

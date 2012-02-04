@@ -7,7 +7,6 @@
 //
 
 #import "ActivityContentViewController.h"
-#import "ActivityContentTableViewCell.h"
 @implementation ActivityContentViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -37,6 +36,9 @@
     //添加保存按钮
     UIBarButtonItem *barButtonItem=[[UIBarButtonItem alloc] initWithTitle:@"Complete" style:UIBarButtonItemStyleBordered target:self action:@selector(onClickComplete:)];
     [self.navigationItem setRightBarButtonItem:barButtonItem];
+    
+    [rootView addSubview:activityTaskDetailTableView];
+    
 }
 -(void)onClickComplete:(id)sender
 {
@@ -54,46 +56,28 @@
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
-#pragma tableView
--(UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-	static NSString *tableIdentifier = @"ActivityContentTableViewCell";
-	ActivityContentTableViewCell *cell = (ActivityContentTableViewCell *)[tableView dequeueReusableCellWithIdentifier:tableIdentifier];
-	if (cell == nil) {
-        NSArray *array = [[NSBundle mainBundle] loadNibNamed:@"ActivityContentTableViewCell" owner:self options:nil];
-        cell = [array objectAtIndex:0];
-	}
-    return cell;
-	
-}
-//定义有多少行
--(NSInteger) tableView:(UITableView *)table numberOfRowsInSection:(NSInteger)section 
-{
-    return 2;
-}
--(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-   
-}
--(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    return 62;
-}
+
 -(IBAction)onChangeSegments:(id)sender
 {
+    [self performSelector:@selector(removeChildsView:) withObject:rootView];
     UISegmentedControl *segments=(UISegmentedControl *)sender;
     switch ([segments selectedSegmentIndex]) {
         case 0:
-            rootTableView.hidden=YES;
+            [rootView addSubview:activityTaskDetailTableView];
             break;
         case 1:
-            rootTableView.hidden=NO;
+            [rootView addSubview:commentTableView];
             break;
         case 2:
-            rootTableView.hidden=YES;
             break;
         default:
             break;
+    }
+}
+-(void)removeChildsView:(UIView *)view
+{
+    for (UIView *v in view.subviews) {
+        [v removeFromSuperview];
     }
 }
 @end

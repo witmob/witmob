@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C0581B814DD32740076C1C7 /* activity.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2C0581B714DD32740076C1C7 /* activity.txt */; };
 		2C07990E14D7F43200B7924F /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C07990C14D7F43200B7924F /* AccountViewController.m */; };
 		2C07991814D8E6FF00B7924F /* WorkSpacesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C07991614D8E6FF00B7924F /* WorkSpacesViewController.m */; };
+		2C35D9AD14DCFE4000B46BC5 /* ActivityTaskDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C35D9AC14DCFE4000B46BC5 /* ActivityTaskDetailTableViewCell.m */; };
+		2C35D9AF14DCFE5800B46BC5 /* ActivityTaskDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C35D9AE14DCFE5800B46BC5 /* ActivityTaskDetailTableViewCell.xib */; };
+		2C35D9B214DD0BEA00B46BC5 /* ActivityTaskDetailTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C35D9B114DD0BE900B46BC5 /* ActivityTaskDetailTableView.m */; };
+		2C35D9B714DD0D4A00B46BC5 /* CommentTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C35D9B614DD0D4A00B46BC5 /* CommentTableView.m */; };
 		2C3FF22814D654DC00375B34 /* cdlogo_mobile.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C3FF22714D654DC00375B34 /* cdlogo_mobile.png */; };
 		2C3FF22B14D66B0600375B34 /* CheckTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3FF22A14D66B0600375B34 /* CheckTools.m */; };
 		2C3FF23F14D6832100375B34 /* activity_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C3FF23E14D6832100375B34 /* activity_gray.png */; };
@@ -71,12 +76,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C0581B714DD32740076C1C7 /* activity.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = activity.txt; sourceTree = "<group>"; };
 		2C07990B14D7F43200B7924F /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
 		2C07990C14D7F43200B7924F /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
 		2C07991514D8E6FF00B7924F /* WorkSpacesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkSpacesViewController.h; sourceTree = "<group>"; };
 		2C07991614D8E6FF00B7924F /* WorkSpacesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkSpacesViewController.m; sourceTree = "<group>"; };
 		2C35D9A214DCF46B00B46BC5 /* OfficeConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfficeConfig.h; sourceTree = "<group>"; };
 		2C35D9A614DCF53200B46BC5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "/Users/marcus/iosworkspace/witmob_office/witmob_office/zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<absolute>"; };
+		2C35D9AB14DCFE4000B46BC5 /* ActivityTaskDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityTaskDetailTableViewCell.h; sourceTree = "<group>"; };
+		2C35D9AC14DCFE4000B46BC5 /* ActivityTaskDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityTaskDetailTableViewCell.m; sourceTree = "<group>"; };
+		2C35D9AE14DCFE5800B46BC5 /* ActivityTaskDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityTaskDetailTableViewCell.xib; sourceTree = "<group>"; };
+		2C35D9B014DD0BE900B46BC5 /* ActivityTaskDetailTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityTaskDetailTableView.h; sourceTree = "<group>"; };
+		2C35D9B114DD0BE900B46BC5 /* ActivityTaskDetailTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityTaskDetailTableView.m; sourceTree = "<group>"; };
+		2C35D9B514DD0D4A00B46BC5 /* CommentTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentTableView.h; sourceTree = "<group>"; };
+		2C35D9B614DD0D4A00B46BC5 /* CommentTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentTableView.m; sourceTree = "<group>"; };
 		2C3FF22714D654DC00375B34 /* cdlogo_mobile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cdlogo_mobile.png; sourceTree = "<group>"; };
 		2C3FF22914D66B0600375B34 /* CheckTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckTools.h; sourceTree = "<group>"; };
 		2C3FF22A14D66B0600375B34 /* CheckTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckTools.m; sourceTree = "<group>"; };
@@ -200,12 +213,7 @@
 		2C07990514D7D86F00B7924F /* activity */ = {
 			isa = PBXGroup;
 			children = (
-				2CBE7A5A14D5265200271514 /* ActivityContentViewController.h */,
-				2CBE7A5B14D5265300271514 /* ActivityContentViewController.m */,
-				2CBE7A5C14D5265300271514 /* ActivityContentViewController.xib */,
-				2C3FF28014D785B400375B34 /* ActivityContentTableViewCell.h */,
-				2C3FF28114D785B500375B34 /* ActivityContentTableViewCell.m */,
-				2C3FF28314D785D500375B34 /* ActivityContentTableViewCell.xib */,
+				2C35D9AA14DCFD8700B46BC5 /* activitycoment */,
 				2CBE7A2B14D4F48700271514 /* ActivityViewController.h */,
 				2CBE7A2C14D4F48700271514 /* ActivityViewController.m */,
 				2CBE7A5114D5248B00271514 /* ActivityTableCellView.h */,
@@ -213,6 +221,7 @@
 				2CBE7A5414D524A000271514 /* ActivityTableCellView.xib */,
 				2C3FF26C14D68E5B00375B34 /* Activity.h */,
 				2C3FF26D14D68E5B00375B34 /* Activity.m */,
+				2C0581B714DD32740076C1C7 /* activity.txt */,
 			);
 			name = activity;
 			sourceTree = "<group>";
@@ -280,6 +289,50 @@
 				2C07991614D8E6FF00B7924F /* WorkSpacesViewController.m */,
 			);
 			name = workspaces;
+			sourceTree = "<group>";
+		};
+		2C35D9A714DCFD0A00B46BC5 /* taskdetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = taskdetail;
+			sourceTree = "<group>";
+		};
+		2C35D9A814DCFD1E00B46BC5 /* comments */ = {
+			isa = PBXGroup;
+			children = (
+				2C3FF28014D785B400375B34 /* ActivityContentTableViewCell.h */,
+				2C3FF28114D785B500375B34 /* ActivityContentTableViewCell.m */,
+				2C3FF28314D785D500375B34 /* ActivityContentTableViewCell.xib */,
+				2C35D9B514DD0D4A00B46BC5 /* CommentTableView.h */,
+				2C35D9B614DD0D4A00B46BC5 /* CommentTableView.m */,
+			);
+			name = comments;
+			sourceTree = "<group>";
+		};
+		2C35D9A914DCFD3600B46BC5 /* childtasks */ = {
+			isa = PBXGroup;
+			children = (
+				2C35D9AB14DCFE4000B46BC5 /* ActivityTaskDetailTableViewCell.h */,
+				2C35D9AC14DCFE4000B46BC5 /* ActivityTaskDetailTableViewCell.m */,
+				2C35D9AE14DCFE5800B46BC5 /* ActivityTaskDetailTableViewCell.xib */,
+				2C35D9B014DD0BE900B46BC5 /* ActivityTaskDetailTableView.h */,
+				2C35D9B114DD0BE900B46BC5 /* ActivityTaskDetailTableView.m */,
+			);
+			name = childtasks;
+			sourceTree = "<group>";
+		};
+		2C35D9AA14DCFD8700B46BC5 /* activitycoment */ = {
+			isa = PBXGroup;
+			children = (
+				2C35D9A914DCFD3600B46BC5 /* childtasks */,
+				2C35D9A814DCFD1E00B46BC5 /* comments */,
+				2C35D9A714DCFD0A00B46BC5 /* taskdetail */,
+				2CBE7A5A14D5265200271514 /* ActivityContentViewController.h */,
+				2CBE7A5B14D5265300271514 /* ActivityContentViewController.m */,
+				2CBE7A5C14D5265300271514 /* ActivityContentViewController.xib */,
+			);
+			name = activitycoment;
 			sourceTree = "<group>";
 		};
 		2CB09B4F14DBB40800F3BBFF /* database */ = {
@@ -473,6 +526,8 @@
 				2C3FF27E14D6A45D00375B34 /* icon.png in Resources */,
 				2C3FF27F14D6A45D00375B34 /* icon@2x.png in Resources */,
 				2C3FF28414D785D600375B34 /* ActivityContentTableViewCell.xib in Resources */,
+				2C35D9AF14DCFE5800B46BC5 /* ActivityTaskDetailTableViewCell.xib in Resources */,
+				2C0581B814DD32740076C1C7 /* activity.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +558,9 @@
 				2C07990E14D7F43200B7924F /* AccountViewController.m in Sources */,
 				2C07991814D8E6FF00B7924F /* WorkSpacesViewController.m in Sources */,
 				2CB09B5814DBB77900F3BBFF /* ManagerDatabase.m in Sources */,
+				2C35D9AD14DCFE4000B46BC5 /* ActivityTaskDetailTableViewCell.m in Sources */,
+				2C35D9B214DD0BEA00B46BC5 /* ActivityTaskDetailTableView.m in Sources */,
+				2C35D9B714DD0D4A00B46BC5 /* CommentTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,6 +627,7 @@
 		2CBE7A0B14D4EF8F00271514 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "witmob_office/witmob_office-Prefix.pch";
 				INFOPLIST_FILE = "witmob_office/witmob_office-Info.plist";
@@ -581,6 +640,7 @@
 		2CBE7A0C14D4EF8F00271514 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "witmob_office/witmob_office-Prefix.pch";
 				INFOPLIST_FILE = "witmob_office/witmob_office-Info.plist";

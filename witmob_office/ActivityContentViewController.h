@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "CommentTableView.h"
+#import "ActivityTaskDetailTableView.h"
 @interface ActivityContentViewController : UIViewController
-<UITableViewDataSource,UITableViewDelegate>
 {
-    __weak IBOutlet UITableView *rootTableView;
+     IBOutlet UIView *rootView;
+     IBOutlet CommentTableView *commentTableView;
+     IBOutlet ActivityTaskDetailTableView *activityTaskDetailTableView;
 }
 
 -(IBAction)onChangeSegments:(id)sender;
